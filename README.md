@@ -1,30 +1,33 @@
 # 🍕 Domino’s Pizza Sales Analysis (SQL Project)
 
-## 📌 Project Summary
+## 📌 Project Overview
 
-This project explores Domino’s pizza sales data using SQL to extract meaningful insights related to customer demand, product performance, and revenue trends. The analysis is performed on a structured relational dataset, focusing on solving real business-driven questions through efficient querying.
+This project analyzes Domino’s pizza sales data using SQL to uncover insights related to customer ordering patterns, product performance, and revenue trends. The goal is to transform raw transactional data into meaningful business insights using structured querying techniques.
 
-## 🗂️ Dataset Structure
+## 🗂️ Dataset Description
 
-The project is built on four interconnected tables:
+The dataset is organized into four relational tables:
 
-* **orders** → stores order date and time
-* **order_details** → contains quantity and pizza IDs
-* **pizzas** → includes size and pricing details
-* **pizza_types** → provides category and name of pizzas
+* **orders** – contains order date and time
+* **order_details** – includes quantity and pizza IDs
+* **pizzas** – stores size and pricing information
+* **pizza_types** – defines pizza names and categories
 
 ## ⚙️ Tools & Technologies
 
 * MySQL
-* SQL (Joins, Aggregations, Window Functions, Views, CTEs)
+* SQL (Joins, Aggregations, Window Functions, CTEs, Views)
+* PowerPoint (for presentation)
 
-## 🧠 Concepts Applied
+## 🧠 SQL Concepts Used
 
-* Multi-table joins for relational analysis
-* Aggregation functions for metrics calculation
-* Window functions for ranking and cumulative trends
-* Views and CTEs for modular query building
-* Revenue and percentage-based analysis
+* SELECT queries for data extraction
+* INNER JOIN for combining multiple tables
+* GROUP BY & ORDER BY for aggregation and sorting
+* Aggregate functions (SUM, COUNT, AVG)
+* Window functions (ROW_NUMBER, SUM OVER)
+* CTEs and Views for structured analysis
+* Revenue and percentage calculations
 
 ## ❓ Business Questions Solved
 
@@ -42,38 +45,44 @@ The project is built on four interconnected tables:
 
 ## 📊 Key Insights
 
-* Larger pizza sizes show higher demand, indicating group ordering behavior
-* Certain categories dominate overall sales volume
-* A small set of pizzas contributes significantly to total revenue
-* Orders peak during lunch and evening hours
-* Revenue shows a steady upward trend over time
-* Premium pizzas generate higher revenue despite lower frequency
+* Large-sized pizzas are the most preferred among customers
+* A few categories contribute significantly to total sales volume
+* Revenue follows a concentration pattern (majority from few items)
+* Peak demand occurs during lunch and evening hours
+* Sales show steady cumulative growth over time
+* Premium pizzas generate higher revenue despite fewer orders
 
 ## 💰 Revenue Analysis
 
-Revenue is calculated using:
+Revenue is calculated as:
 
-```
+```id="9shgqj"
 price × quantity
 ```
 
 * Total revenue is aggregated across all orders
-* Cumulative revenue is analyzed using window functions over time
+* Cumulative revenue is computed using window functions
 
 ## 📁 Project Structure
 
-```
+```id="2qk8f0"
 Dominos-SQL-Sales-Analysis/
 │
-├── dominos_analysis.sql
 ├── data/
 │   ├── orders.csv
 │   ├── order_details.csv
 │   ├── pizzas.csv
 │   └── pizza_types.csv
+│
+├── Dominos Pizza Sales Analysis.sql
+├── Dominos Pizza Sales Analysis.pptx
 └── README.md
 ```
 
+## 📊 Presentation
+
+The project also includes a PowerPoint file showcasing key findings and insights derived from the SQL analysis.
+
 ## 🚀 Conclusion
 
-This project demonstrates how SQL can be used to analyze real-world business data by combining multiple tables, performing advanced calculations, and generating actionable insights. It highlights strong skills in data querying, transformation, and interpretation.
+This project highlights the ability to work with relational datasets, perform multi-table joins, and derive business insights using SQL. It demonstrates strong analytical thinking and practical data analysis skills applicable to real-world scenarios.
