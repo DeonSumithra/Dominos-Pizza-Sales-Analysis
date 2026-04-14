@@ -36,12 +36,12 @@ The dataset is organized into four relational tables:
 3. What is the total quantity ordered per pizza category?
 4. What is the category-wise distribution of pizzas?
 5. What is the average number of pizzas ordered per day?
-6a. What percentage does each pizza type contribute to total revenue?
-6b. How does cumulative revenue grow over time?
-7. What is the most commonly ordered pizza size?
-8. Which pizza is the highest priced?
-9. What is the total revenue generated?
-10. What is the hourly distribution of orders?
+6. What percentage does each pizza type contribute to total revenue?
+7. How does cumulative revenue grow over time?
+8. What is the most commonly ordered pizza size?
+9. Which pizza is the highest priced?
+10. What is the total revenue generated?
+11. What is the hourly distribution of orders?
 
 ## 📊 Key Insights
 
